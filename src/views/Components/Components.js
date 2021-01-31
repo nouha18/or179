@@ -1,12 +1,10 @@
-import React,{useRef,useState} from "react";
+import React from "react";
 import classNames from "classnames";
-import { Card,ListGroup } from 'react-bootstrap';
 import { makeStyles } from "@material-ui/core/styles";
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import stlcmp from "../../assets/jss/material-kit-react/views/componentsSections/completedStyle.js";
 import Parallax from "components/Parallax/Parallax.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import SectionPills from "./Sections/SectionPills.js";
@@ -17,8 +15,6 @@ import RecipeReviewCard from './Sections/Cardstamp.js';
 import styles from "../../assets/jss/material-kit-react/views/components.js";
 import './cards.css';
 const useStyles = makeStyles(styles);
-const useStylecmp = makeStyles(stlcmp);
-const usebox = makeStyles(stlcmp);
 
 export default function Components(props) {
   const classecmp = useStyles();

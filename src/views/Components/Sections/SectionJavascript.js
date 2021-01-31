@@ -10,11 +10,7 @@ const useStyles = makeStyles(styles);
 
 export default function SectionJavascript() {
   const classes = useStyles();
-  const [anchorElLeft, setAnchorElLeft] = React.useState(null);
-  const [anchorElTop, setAnchorElTop] = React.useState(null);
-  const [anchorElBottom, setAnchorElBottom] = React.useState(null);
-  const [anchorElRight, setAnchorElRight] = React.useState(null);
-  const [classicModal, setClassicModal] = React.useState(false);
+
   return (
     <div className={classes.section}>
       <div className={classes.container}>

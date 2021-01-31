@@ -28,6 +28,7 @@ export default function SectionDownload() {
               I{"'"}me working on some design and Tutoriels{" "}
               <a
                 href="https://codesandbox.io/"
+                rel="noopener"
                 target="_blank">
                 codesandbox{" "}
               </a>

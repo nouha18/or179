@@ -8,13 +8,13 @@ import "./assets/css/index.css";
 import Components from "views/Components/Components.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 
-
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
     <Switch>
      <Route path="/profile-page" component={ProfilePage} />
+
      <Route path="/" component={Components} />
     </Switch>
   </Router>,

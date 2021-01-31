@@ -2,14 +2,8 @@ import React from "react";
 
 import {
   Frame,
-  Scroll,
+  
   useCycle,
-  useAnimation,
-  transform,
-  useMotionValue,
-  useTransform,
-  addPropertyControls,
-  ControlType
 } from "framer"
 
 export default function Framer() {
